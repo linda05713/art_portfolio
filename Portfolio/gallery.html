@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <h1>Gallery</h1>
+
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="animation.html">Experimental Animation</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- FILTER BUTTONS -->
+    <section class="filters">
+      <button class="filter-btn" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="digital">Digital</button>
+      <button class="filter-btn" data-filter="traditional">Traditional</button>
+    </section>
+
+    <!-- GALLERY GRID -->
+    <section class="gallery-grid">
+
+      <!-- ARTWORK 1 -->
+      <figure class="gallery-item digital">
+        <img
+          src="images/art1.jpg"
+          srcset="images/art1.jpg 1x, images/art1-2x.jpg 2x"
+          width="400"
+          height=auto
+          alt="Black and red artwork of a boy and monsters"
+        >
+        <figcaption>Monsters in the Dark</figcaption>
+      </figure>
+
+      <!-- ARTWORK 2 -->
+      <figure class="gallery-item digital">
+        <img
+          src="images/art2.jpg"
+          srcset="images/art2.jpg 1x, images/art2-2x.jpg 2x"
+          width="400"
+          height=auto
+          alt="Abstract art of boy running"
+        >
+        <figcaption>Run!</figcaption>
+      </figure>
+
+      <!-- ARTWORK 3 -->
+      <figure class="gallery-item digital">
+        <img
+          src="images/art3.jpg"
+          srcset="images/art3.jpg 1x, images/art3-2x.jpg 2x"
+          width="400"
+          height=auto
+          alt="Digital painting of postcard portraits"
+        >
+        <figcaption>Postcard Portraits</figcaption>
+      </figure>
+
+      <!-- ARTWORK 4 -->
+      <figure class="gallery-item traditional">
+        <img
+          src="images/art4.jpg"
+          srcset="images/art4.jpg 1x, images/art4-2x.jpg 2x"
+          width="400"
+          height=auto
+          alt="Charcoal sketch of eyes"
+        >
+        <figcaption>Charcoal Eyes</figcaption>
+      </figure>
+
+      <!-- ARTWORK 5 -->
+      <figure class="gallery-item digital">
+        <img
+          src="images/art5.jpg"
+          srcset="images/art5.jpg 1x, images/art5-2x.jpg 2x"
+          width="400"
+          height=auto
+          alt="Digital painting of houses at night"
+        >
+        <figcaption>Quiet at Night</figcaption>
+      </figure>
+
+      <!-- ARTWORK 6 -->
+      <figure class="gallery-item traditional">
+        <img
+          src="images/art6.jpg"
+          srcset="images/art6.jpg 1x, images/art6-2x.jpg 2x"
+          width="400"
+          height= auto
+          alt="Miscellaneous sketches of multiple things"
+        >
+        <figcaption>Miscellaneous Sketch</figcaption>
+      </figure>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Art Portfolio Gallery</p>
+  </footer>
+
+</body>
+</html>
